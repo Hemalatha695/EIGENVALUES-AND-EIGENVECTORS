@@ -16,6 +16,7 @@ eig_vectors contains the corresponding eigenvectors (as columns).
 ### Step 4:
 Use print() or format() to show the eigenvalues and eigenvectors.
 ## Program:
+```
 #Program to find the eigen values and eigen vectors.
 #Developed by:Hemalatha A 
 #RegisterNumber:212224240056
@@ -23,6 +24,7 @@ import numpy as np
 A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 eig_values,eig_vectors=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(eig_values,eig_vectors))
+```
 ## Output:
 ![alt text](<Screenshot 2025-03-30 192810.png>)
 ## Result:
